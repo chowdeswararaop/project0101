@@ -1,0 +1,14 @@
+.header{
+    background-color: rgb(255, 228, 196);
+    display:grid;
+    grid-template-columns: 80vw 20vw;
+    align-items:center;
+    position: static;
+    z-index: 5;
+    
+    /* z-index: 100; */
+    
+}
+/* p{
+    text-align: ;
+} */

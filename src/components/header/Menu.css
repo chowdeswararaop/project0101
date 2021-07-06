@@ -1,0 +1,23 @@
+.menu {
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 5px solid rgb(22, 22, 21);
+    border-radius:1vh;
+    margin-top: .5vh;
+    transform: scale(.7);
+
+}
+
+.menu div {
+    width: 90%;
+    height: .5vh;
+    background-color: rgb(26, 18, 18);
+}
+
