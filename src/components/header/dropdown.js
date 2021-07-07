@@ -1,4 +1,5 @@
 import './dropdown.css'
+import {NavLink} from  'react-router-dom'
 
 function Dropdown(props){
 
@@ -6,17 +7,18 @@ function Dropdown(props){
         console.log("clicked on drop down");
     }
     // console.log(props);
-    let Dropdown=['dropdown','close']
-    if(props.show)Dropdown=['dropdown']
+    let Dropdown=['dropdown']
+    if(props.show)Dropdown=['dropdown','close']
 // Dropdown.join(' ')}>
     return(
         <div className={Dropdown.join(' ')}>
             <div className="dropdown-content" onClick={clickedHandler}>
-                <a href="#">Dashbord</a>
+                
+                <NavLink  to="/dashbord">Dashbord</NavLink>
            
-                <a href="#">Profile</a>
+                <NavLink  to="/details">Profile</NavLink>
             
-                <a href="#">Logout</a>
+                <NavLink to="/logout">Logout</NavLink>
             </div>
         </div>
         

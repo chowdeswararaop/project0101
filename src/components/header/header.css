@@ -1,14 +1,11 @@
 .header{
-    background-color: rgb(255, 228, 196);
+    background: rgb(111,105,205);
+   background: linear-gradient(90deg, rgba(111,105,205,1) 0%, rgba(1,158,245,0.6507645294445903) 100%, 
+            rgba(129,182,185,0.8272351176798844) 100%, rgba(0,212,255,1) 100%);
     display:grid;
     grid-template-columns: 80vw 20vw;
     align-items:center;
-    position: static;
-    z-index: 5;
-    
-    /* z-index: 100; */
+    z-index: 5; 
     
 }
-/* p{
-    text-align: ;
-} */
+
